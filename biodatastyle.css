@@ -1,0 +1,296 @@
+body{
+    background-image: url(field.jpg);
+    background-size: cover;
+    background-position: center; 
+} 
+h2{
+    background-color: coral;
+    color: wheat;
+    text-align: center;
+    font-family: "abcd";
+    border-radius: 12px;
+
+}
+/* format font: .otf/.ttf */
+@font-face {
+    font-family:abcd;
+    src: url(creamy_chicken/Creamy\ Chicken.otf);
+}
+h1{
+    background-color: lightsalmon;
+    color: white;
+    text-align : center;
+    width: 600px;
+}
+div.biodata{
+    margin : 30px auto; 
+    width : 70%;
+    background-color: bisque;
+    color: teal;
+    padding: 30px;
+    border-radius: 12px;
+    justify-content: center; 
+    align-items: center;
+}
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid coral;
+}
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+} 
+div.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+div.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+div.foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+div.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.makanan{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+}
+    
+img{
+    padding: 10px;
+}
+div.sushi{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: coral;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.sushi:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+div.Fishchips{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: coral;
+    text-align : center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.Fishchips:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Indomie{
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: coral;
+    text-align : center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.Indomie:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.minuman{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+div.Starbucks{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.Starbucks:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.Matcha{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.Matcha:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.milo{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.milo:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.film{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+}
+    
+img{
+    padding: 10px;
+}
+
+div.dps{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.dps:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.acs{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.acs:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.ten{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.ten:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.artis{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+}
+    
+img{
+    padding: 10px;
+}
+
+div.ariana{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.ariana:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.justin{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.justin:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+div.olivia{
+    width: 250px;
+    height:280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(96,56,56,0.9);
+    color: white;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.olivia:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}

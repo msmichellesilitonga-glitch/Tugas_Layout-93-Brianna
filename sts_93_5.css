@@ -1,0 +1,280 @@
+@font-face {
+    font-family: creamy;
+    src: url("creamy_chicken/Creamy\ Chicken.otf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(35, 105, 55);
+    background-size: cover;
+    background-position: center; 
+    background-image: url(i\ mean.jpg);
+} 
+
+header {
+    max-width: 1000px;
+    margin: 30px auto 50px;
+    padding: 60px 30px;
+    background-color: #315c4b;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    background-image: url(hello.jpg);
+}
+
+
+.namaabsen {
+    color: seagreen;
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-indent: 0;
+    background-color: wheat;
+}
+
+
+h1 {
+    margin: 15px 0;
+    color: coral;
+    font-family: creamy;
+    font-size: 75px;
+    line-height: 0.9;
+    transition: 0.5s;
+    text-shadow: coral;
+}
+
+h1:hover {
+    color: coral;
+    transform: scale(1.08);
+}
+
+
+.caption {
+    color: lightgoldenrodyellow;
+    text-indent: 0;
+    text-align: center;
+    text-shadow: #315c4b;
+
+}
+
+.kotakgede {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 35px;
+    background-color: rgba(255,255,255,0.94);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.bagian1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    background-color: wheat;
+}
+
+
+.bagian1 span{
+    background-color: #d96d4f;
+    color: white;
+    padding: 10px 13px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+
+h2{
+    margin: 0;
+    color: #315c4b;
+    font-family: creamy;
+    font-size: 35px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.main-image {
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+    transition: 0.5s;
+}
+
+.main-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.45);
+}
+
+.jenisp {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.pencair,
+.pencud,
+.penta,
+.pensu,
+.penra {
+    width: 200px;
+}
+
+.pencair,
+.pencud,
+.penta,
+.pensu,
+.penra {
+    width: 18%;
+    min-width:0;
+    background-color: #f1f4ef;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.4s;
+}
+
+.header p {
+    text-align: center;
+}
+
+.pencair:hover,
+.pencud:hover,
+.penta:hover,
+.pensu:hover,
+.penra:hover{
+   overflow: hidden;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);
+}
+
+
+.pencair img,
+.pencud img,
+.penta img,
+.pensu img,
+.penra img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+
+.pencair:hover img,
+.pencud:hover img,
+.penta:hover img,
+.pensu:hover img,
+.penra:hover img {
+    transform: scale(1.08);
+}
+
+
+.pencair h3,
+.pencud h3,
+.penta h3,
+.pensu h3,
+.penra h3 {
+    color: #315c4b;
+    font-size: 20px;
+}
+
+.box {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 35px;
+    background-color: rgba(255,255,255,0.94);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+
+.solusi {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 35px;
+    background-color: #315c4b;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.solusi h2 {
+    color: green;
+}
+
+
+.solusi-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.solusi-list div {
+    width: 250px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.12);
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.solusi-list b {
+    font-size: 30px;
+    color: #f28b6d;
+}
+
+
+.solusi-list p {
+    text-align: center;
+    text-indent: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 50px 35px;
+    background-color: #e8c9a9;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+footer h2 {
+    font-size: 45px;
+    color: #315c4b;
+}
+
+
+footer p {
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+
+.credit {
+    text-align: center;
+    text-indent: 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #315c4b;
+}

@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+}
+/* style pada header */
+.header{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+.header p {
+    color: coral;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+/* style pada topnav */
+
+.topnav{
+    overflow: hidden;
+    background-color: pink;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    background-color: beige;
+    padding: 15px;
+    text-align: center;
+}
+.footer{
+    background-color: beige;
+    padding: 15px;
+}
+table, th, td{
+    border: 1px solid black, 
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: palegoldenrod;
+}
+th,td{
+    padding: 5px;
+}
+tr{
+    background-color:palegoldenrod;
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+tr:hover{
+    background-color: pink;
+}
+/* Style pada list */
+ol{
+    list-style-type: lower-alpha;
+    background-color: violet;
+    border: 3px solid purple;
+    padding: 15px 30px;
+    margin: 10px;
+    list-style-position: inside;
+}
+ul{
+    list-style-type: square;
+}
+ol li {
+    background-color: cornsilk;
+    margin: 6px 0;
+    padding: 6px 12px;
+    border: 2px solide cornsilk;
+    text-align: justify;
+}
+ol li.Nanas{
+    background-color: palevioletred;
+    border: 2px solid pink;
+    color: white;
+    font-weight: bold;
+}
+.Lorem{
+    background-color: darkseagreen;
+    padding:15px 30px;
+    margin: 10px;
+    list-style-type: square;
+    border: 3px solid cornsilk;
+    padding: 15px 30px;
+}
+.Lorem li{
+    background-color: papayawhip;
+    margin: 6px 0;
+    padding: 5px;
+    list-style-position:inside;
+    
+}
+.icon{
+    background-color: coral;
+    border: 5px solid bisque;
+    padding: 15px 30px;
+    margin: 10px;
+}
+.icon li{
+    background-color: papayawhip;
+    padding : 5px;
+    margin: 3px;
+    list-style-type:square;
+    list-style-position:inside;
+}
+.icon svg{
+    width: 15px;
+    height: 15px;
+    flex-shrink:0;
+}
+h3{
+    background-color:palevioletred;
+    color: beige;
+    padding: 10px;
+    margin: 10px;
+}
+.minuman{
+    background-color: violet;
+    border: 3px solid purple;
+    padding : 15px 30px;
+    margin : 10px;
+    list-style-type:square;
+}
+.minuman li{
+    background-color: cornsilk;
+    margin: 6px 0;
+    padding: 6px 12px;
+    border: 2px solid cornsilk;
+    text-align: justify;
+    list-style-position:inside;
+}
